@@ -3,29 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
 }
+
 /* header section*/
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 15px;
 }
+
 main {
-   height: calc(100vh - 70px);
-   display: flex;
-   background-color: #f9f9f9;
+  height: calc(100vh - 70px);
+  display: flex;
+  background-color: #f9f9f9;
 }
- /* Sidebar */
+
+/* Sidebar */
 .side-bar {
   height: 100%;
   width: 17%;
   background-color: white;
   overflow-y: hidden;
 }
+
 .left {
   display: flex;
   align-items: center;
@@ -35,25 +40,30 @@ main {
   padding: 0 7px;
   cursor: pointer;
 }
+
 .search {
   display: flex;
 }
+
 .search form {
   display: flex;
   border: 1px solid #ddd;
   height: 45px;
 }
+
 .search input {
   width: 600px;
-  padding:10px;
+  padding: 10px;
   border: 0;
   height: 100%;
   border-radius: 2px 0 0 2px
 }
+
 input:focus {
   outline: none;
   border: 1px solid #ddd;
 }
+
 .search button {
   height: 100%;
   width: 60px;
@@ -63,37 +73,42 @@ input:focus {
 .mic {
   margin-top: 10px;
 }
+
 .material-icons {
-    color: rgb(100, 100, 100);
-    padding: 0 7px;
-    cursor: pointer;
+  color: rgb(100, 100, 100);
+  padding: 0 7px;
+  cursor: pointer;
 }
+
 .nav {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-    margin-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
+
 .nav-link {
-   display: flex;
-   align-items: center;
-   padding: 12px 25px;
- }
+  display: flex;
+  align-items: center;
+  padding: 12px 25px;
+}
 
 .nav-link span {
-   margin-left: 15px;
- }
+  margin-left: 15px;
+}
 
 .nav-link:hover {
-   background: #e5e5e5;
-   cursor: pointer;
- }
-hr {
-   height: 1px;
-   background-color: #e5e5e5;
-   border: none;
+  background: #e5e5e5;
+  cursor: pointer;
 }
+
+hr {
+  height: 1px;
+  background-color: #e5e5e5;
+  border: none;
+}
+
 .content {
   background-color: #f9f9f9;
   width: 100%;
